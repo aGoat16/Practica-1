@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Complete Events</name>
+    <events>
+        <event-block sid="1487253384592471">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="5660854990086722" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="2646017047787676" type="FinalScoreText">
+                    <param id="0" name="Text">&quot;Final Score: &quot;&amp;Score</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4560014737180762">
+            <conditions>
+                <condition id="-20" name="Is on mobile device" sid="5312694026890668" type="System" />
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="6704702970296856" type="Continue">
+                    <param id="0" name="Animation">&quot;Handheld&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="1285290327475779">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="8527558406085523" type="Keyboard">
+                    <param id="0" name="Key">67</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="8363482513547365" type="System">
+                    <param id="0" name="Layout">Title</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="2911578966867797">
+            <conditions>
+                <condition id="4" name="Is touching object" sid="6027149455969626" type="Touch">
+                    <param id="0" name="Object">Continue</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="2097945370213092" type="System">
+                    <param id="0" name="Layout">Title</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
